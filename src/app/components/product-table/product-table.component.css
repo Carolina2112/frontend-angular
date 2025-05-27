@@ -1,0 +1,255 @@
+.outer-container {
+  background-color: #f5f5fb   ;
+  padding: 40px;
+  margin: 40px auto;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.barra-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto 10px auto;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  margin: 0;
+  width: auto;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+}
+
+.table-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 2px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+  overflow-x: auto;
+  max-width: 90%;
+  font-weight: 400;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  max-width: 95%;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 4px 12px rgba(247, 247, 247, 0.61);
+  border-radius: 8px;
+  overflow: auto;
+  background-color: #ffffff;
+  text-align: left;
+  font-size: 15px;
+}
+
+th {
+  background-color: #f5f5fb  ;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 15px;
+}
+
+td {
+  padding: 12px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 15px;
+}
+
+tr:hover td {
+  background-color: #f9f9f9;
+}
+
+.btn1,
+.btn2 {
+  margin-right: 10px;
+}
+
+.btn1 {
+  padding: 10px 18px;
+  background-color: #09003d;
+  border: none;
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #000041ad;
+}
+
+.btn2 {
+  padding: 10px 18px;
+  background-color: #ffee00;
+  border: none;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #ffee00;
+}
+
+.page-size {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  font-family: inherit;
+}
+
+.page-size select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.btnDropdown {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9999;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content button {
+  width: 100%;
+  padding: 8px 12px;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-agregar {
+  background-color: #ffee00;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 540;
+}
+.btn-agregar:hover {
+  background-color: #faf600e1;
+}
+
+.opciones-container {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-opciones {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn-opciones:hover {
+  background-color: #e0e0e0;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-buttons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-cancelar,
+.btn-confirmar {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-cancelar {
+  background: #ccc;
+}
+
+.btn-confirmar {
+  background: #d9534f;
+  color: white;
+}
+@media (max-width: 768px) {
+  .dropdown-content {
+    right: auto;
+    left: 0;
+  }
+}

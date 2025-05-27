@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "12364",
+      "nombre": "master",
+      "description": "visasssssssss",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-28",
+      "fechaRev": "2026-05-28"
+    },
+    {
+      "id": "12311",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12332",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12364",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12311",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12332",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12364",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12311",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12332",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12364",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12311",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    },
+    {
+      "id": "12332",
+      "nombre": "visa",
+      "description": "visa",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR7kSSPfbOlxDjFG3EQB47a9tVYiylMhhgA&s",
+      "fechaLib": "2025-05-06",
+      "fechaRev": "2025-05-06"
+    }
+  ]
+}

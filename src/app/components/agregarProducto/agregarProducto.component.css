@@ -1,0 +1,118 @@
+.principal {
+    background-color: #f5f5fb ;
+    padding: 10px;
+
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    font-size: 10px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-weight: 400;
+    margin: 20px auto;
+    text-align: center;
+    overflow-x: auto;
+}
+.buttonBack{
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: start;
+}
+
+h1 {
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 40px;
+   
+
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.form-grid div {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #000000;
+    
+}
+
+input[type="text"], input[type="date"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #070030;
+    outline: none;
+}
+
+.form-a {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.enviar-btn {
+    background-color: #000146;
+    color: white;
+}
+
+.enviar-btn:hover {
+    background-color: #010047ad;
+    transform: scale(1.05);
+}
+
+.reset-btn {
+    background-color: #ffee00;
+    color: rgb(0, 0, 0);
+}
+
+.reset-btn:hover {
+    background-color: #ffee00;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-a {
+        flex-direction: column;
+    }
+
+    .form-a button {
+        width: 100%;
+    }
+}
